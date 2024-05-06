@@ -227,3 +227,8 @@ footer {
         padding: 0px 20px;
     }
 }
+@supports not (image-set: url('resources/code-1076536_1920.avif')) {
+    #titleDiv {
+        background-image: url('resources/code-1076536_1920.jpg');
+    }
+}
